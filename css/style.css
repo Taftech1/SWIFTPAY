@@ -28,7 +28,7 @@ body{
 }
 
 .balance h1{
-    font-size: 35px;
+    font-size: 39px;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
@@ -194,7 +194,7 @@ button{
     width: 30px;
 }
 .bnn h1{
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: -20px;
     color: rgb(26, 26, 148);
     font-size: 18px;
