@@ -197,18 +197,18 @@ button{
     margin-top: 15px;
     margin-left: -20px;
     color: rgb(26, 26, 148);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .bnn p{
-    font-size: 13px;
+    font-size: 11px;
     color: rgb(84, 82, 82);
     margin-top: 5px;
     margin-left: -20px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 p span{
-    font-size: 13px;
+    font-size: 11px;
     margin-left: 10px;
 }
 h1 span{
@@ -238,12 +238,12 @@ h1 span{
         padding: 10px;
         border-radius: 20px;
         margin: 0;
-       height: 30px;
-       width: 30px;
+       height: 25px;
+       width: 25px;
     }
 
     .footer h3{
-        font-size: 15px;
+        font-size: 14px;
         color: rgb(31, 31, 176);
         text-align: center;
         font-weight: 500;
