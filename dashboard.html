@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    
+   
+    <link rel="stylesheet" href="../My challenge design 2/css/style.css">
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000080">
+    <title>SWIFT PAY</title>
+</head>
+<body>
+
+<!-- MOBILE VERSION STARTED HERE -->
+   <section id="mobile-version">
+    <header class="header-container">
+        <div class="top-header">
+        <div class="balance">
+       <h1>$2,589.50</h1>
+       <h3>Available balance</h3>
+       </div>
+       <div class="bell-user">
+     <i class="fa-solid fa-bell"></i>
+    <img id="open" 
+    src="./image/user-image.png" alt="user-image" height="40px" width="40px">
+    
+</div>
+</div> 
+<div class="second-header"> 
+    <div class="item-box">
+        <img src="./image/wallet.png" alt="send" height="40px" width="40px">
+    <h3>Send</h3>
+        
+    </div>
+    <div class="item-box">
+        <img src="./image/wallet4.png" alt="send" height="40px" width="40px">
+        <h3>Request</h3>
+        
+    </div>
+    <div class="item-box">
+        <img src="./image/money-bag.png" alt="send" height="40px" width="40px">
+        <h3>Loan</h3>
+        
+    </div>
+    <div class="item-box">
+        <img src="./image/wallet3.png" alt="send" height="40px" width="40px">
+        <h3>Top-up</h3>
+        
+    </div>
+      
+</div>
+</div>
+    </header>
+    <section>
+<div class="main">
+<div><h1>Recent Transaction</h1></div>
+<div><h3>See all</h3></div>
+</div>
+<div class="main2">
+<button onclick="myFunction()">All</button><button>Income</button>
+<button>Expense</button>
+<h1>TODAY</h1>
+</div>
+<div class="bb">
+    <div class="bnn">
+        <div>
+            <img src="./image/money-bag.png" alt="send" height="40px" width="40px">
+        </div>
+    <div>
+        <h1>Sent</h1>
+        <p>Transfer to Ayomide</p>
+    </div>
+    <div>
+        <h1>-$50.68</h1>
+        <p><span>Aug 26</span></p>
+    </div>
+</div>
+<div class="bb">
+    <div class="bnn">
+        <div>
+            <img src="./image/car.png" alt="send" height="40px" width="40px">
+        </div>
+    <div>
+        <h1>Transport</h1>
+        <p>Uber Request </p>
+    </div>
+    <div>
+        <h1>-$50.68</h1>
+        <p><span>Aug 26</span></p>
+
+    </div>
+</div>
+ </section>
+ <section>
+    <div class="main2">
+        <h1>YESTERDAY</h1>
+        </div>
+        <div class="bb">
+            <div class="bnn">
+                <div>
+                    <img src="./image/wallet5.png" alt="send" height="40px" width="40px">
+                </div>
+            <div>
+                <h1>Received</h1>
+                <p>Payment from Tunde</p>
+            </div>
+            <div>
+                <h1><span>+$50.68</span></h1>
+                <p><span>Aug 25</span></p>
+            </div>
+        </div>
+        <div class="bb">
+            <div class="bnn">
+                <div>
+                    <img src="./image/wallet5.png" alt="send" height="40px" width="40px">
+                </div>
+            <div>
+                <h1>Received</h1>
+                <p>Payment from Adekunle</p>
+            </div>
+            <div>
+                <h1><span>+$880.78</span></h1>
+                <p><span>Aug 16</span></p>
+        
+            </div>
+        </div>
+ </section>
+ <!-- Nav popup hidden by the default started here  -->
+ <div class="modal-container" id="modal-container">
+    <div class="modal">
+    <nav> 
+        <div>
+    
+            <ul>
+                <li class="close" id="close"><i class="fa-solid fa-arrow-right-to-bracket"></i></li>
+                <li><a href="./cards.html"><i class="fa-solid fa-house-user"></i>Dashboard</a></li>
+                <li><a href="cards.html"><i class="fa-solid fa-credit-card"></i>My card</a></li>
+                <li><a href="history.html"><i class="fa-solid fa-clock-rotate-left"></i>History</a></li>
+                <li><a href="profile.html"><i class="fa-solid fa-user"></i>Profile</a></li>
+                <li><a href="#"><i class="fa-solid fa-gear"></i>Settings</a></li>
+            
+            </ul>
+        </div>
+    </nav>
+    </div>
+    </div>
+ <!-- Nav popup hidden by the default  Ended here -->
+    <footer class="footer-container">
+        <div class="footer"> 
+            <div class="item-box"><a href="dashboard.html">
+                <img src="./image/home.png" alt="send" height="40px" width="40px">
+            <h3>Home</h3></a>
+                
+            </div>
+            <div class="item-box"><a href="history.html">
+                <img src="./image/history.png" alt="send" height="40px" width="40px">
+                <h3>History</h3></a>
+
+                </div>
+
+                <div class="plus-box">
+                    <img src="./image/plus.png" alt="send" height="70px" width="70px">
+                
+                </div>
+
+            <div class="item-box"><a href="cards.html">
+                <img src="./image/credit-card.png" alt="send" height="40px" width="40px">
+                <h3>Cards</h3></a>
+    
+                
+            </div>
+            <div class="item-box"><a href="profile.html">
+                <img src="./image/user.png" alt="send" height="40px" width="40px">
+                <h3>Profile</h3></a>
+                
+            </div>
+              
+        </div>
+        </div>
+        
+
+    </footer>
+   </div>
+    
+</div>
+
+ </section>
+   <!-- MOBILE VERSION ENDED HERE -->
+
+   <!-- DESKTOP VERSION STARTED HERE -->
+
+   <section id="desktop-version">
+    <div class="desktop-container">
+        <div class="side-menu">
+          <div class="profile-image">
+                <img id="open" 
+    src="./image/user-image.png" alt="user-image" height="40px" width="40px">
+    <h1>Faremi Tunde . A</h1>
+    <button>Pro Level</button>
+            </div>
+
+            <div>
+                <ul class="link">
+            
+                    <li><a href="dashboard.html"><i class="fa-solid fa-house-user"></i>Dashboard</a></li>
+                    <li><a href="cards.html"><i class="fa-solid fa-credit-card"></i>My card</a></li>
+                    <li><a href="history.html"><i class="fa-solid fa-clock-rotate-left"></i>History</a></li>
+                    <li><a href="profile.html"><i class="fa-solid fa-user"></i>Profile</a></li>
+                    <li><a href="#"><i class="fa-solid fa-gear"></i>Settings</a></li>
+                
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section1">
+            
+            <h2>Good morning, (<span>Tunde</span> )</h2> 
+
+            <div class="section1-content">
+             <div class="clo">
+                <img src="./image/chart.png" alt="chart" width="70px" height="50px"/>
+                <h2>Available balance</h2>
+                <h1>$2,589.50</h1>
+                <button>Top-up</button>
+            
+            </div>
+
+            <div class="plo">
+                
+                <div class="plo-items1"> 
+                    <div class="plo-content">
+                      <div class="plo-image">
+                        <img src="./image/wallet.png" alt="send" height="40px" width="40px">
+                       </div>
+
+                        <div class="plo-text">
+                        <h2>Send</h2>
+                        <h3>Tap to Send Money</h3>
+                        </div>
+                    </div>
+
+                 </div>
+                 <div class="plo-items1"> 
+                    <div class="plo-content">
+                      <div class="plo-image">
+                        <img src="./image/wallet5.png" alt="send" height="40px" width="40px">
+                       </div>
+
+                        <div class="plo-text">
+                        <h2>Request</h2>
+                        <h3>Tap to Request Money</h3>
+                        </div>
+                    </div>
+                    <button>Airtime</button><button>Pay Bill</button>
+                     </div>
+         
+                
+                </div>
+
+            </div>
+            <h1 class="transh1">Recent Transaction</h1>
+            <div class="trans-container">
+                <div class="trans">
+                     <div>
+                     <img src="./image/user-image2.png" alt="chart" width="70px" height="70px"/>
+                     </div>
+                     <div>
+                      <h1>Blessing Adeniran</h1>
+                      <h2>Payment recieved</h2>
+                     </div>
+                     <div>
+                       <button>Paid</button>
+                     </div>
+                     <div>
+                     <h3>$2,589.50</h3>
+                
+                </div>
+            
+            </div>
+                <div class="trans">
+                     <div>
+                     <img src="./image/manuser.jpeg" alt="chart" width="70px" height="70px"/>
+                     </div>
+                     <div>
+                      <h1>Thomas Martin</h1>
+                      <h2 class="pmred">Payment erorr</h2>
+                     </div>
+                     <div>
+                      <span class="trans-button"><button>Rejected</button></span>
+                     </div>
+                     <div>
+                     <h3>$1,089.10</h3>
+                
+                </div>
+            
+            </div>
+        </div>
+            <div class="ground-info">
+               <div>
+               <img src="./image/adnetwork.png" alt="chart" width="70px" height="70px"/>
+               </div>
+               <div>
+                <h1>Engage with investors</h1>
+                <h2>Join our telegram group</h2>
+               </div>
+               <div>
+               <button>Join Now</button>
+               </div>
+            </div>
+          
+     </div>
+        <div class="section2">
+            <div class="search-box"> 
+             <i class="fa fa-search"></i>
+          <input type="search" placeholder="Search for Project">
+         </div>
+            
+            <div class="section2-content">
+                <h2>New Project</h2>
+                <div class="cla">
+                    <div class="claitem">
+                        <div> 
+                        <img 
+                        src="./image/fingerprint.png" alt="fingerprint" width="40px" height="40px">
+                        </div> 
+
+                        <div>
+                        <h1>Proveid. com</h1>
+                        <h3 class="veri">The Verification System for BUSSINESS</h3>
+                        </div>
+                    </div>
+
+                    <div class="claitem">
+                        <div> 
+                        <img 
+                        src="./image/networkpro.png" alt="fingerprint" width="40px" height="40px">
+                        </div> 
+
+                        <div>
+                        <h1>CertifyAd. com</h1>
+                        <h3>Advertisment Network for BUSSINESS Owners</h3>
+                        <h4>See all  more</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Recommended Project</h2>
+
+                <div class="cla2">
+                    <div class="cla-proj">
+                        <div> 
+                        <img 
+                        src="./image/camm.png" alt="fingerprint" width="60px" height="60px">
+                        </div> 
+
+                        <div>
+                        <h1>Susan Odumu</h1>
+                        <h3 class="veri">Updated 10m ago</h3>
+                        </div>
+                        <div>
+                            <button>Designer</button>
+                        </div>
+                    </div>
+                <div class="cla-projcontect">
+                    <h1>Need a Designer to form branding essentials for my bussiness.</h1>
+                    <h3>Looking for a telented braed designer to create all the breanding materials for my new startup.</h3>
+                </div>
+                  <div class="cla-proj-offer">
+                      <div>
+                      <h1><sup>$</sup>8,700<span>/month</span><h1>  
+                       </div>
+                   
+                       <div>
+                       <button>Full time</button>  
+                        </div>
+                    </div>
+            </div>
+       
+        </div>
+        </section>
+
+   <!-- DESKTOP VERSION ENDED HERE -->
+<script type="text/javascript" src="./js/function.js"></script>
+</body>
+</html>

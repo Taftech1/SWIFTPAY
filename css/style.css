@@ -1,0 +1,1256 @@
+body{
+    background-color: rgb(234, 234, 234);
+    box-sizing: border-box; 
+    height: 100vh;
+    width: 100vw; 
+    margin: 0;
+    padding: 0;
+    
+
+}
+/* dashboard Header Started Here */
+.header-container{
+    background-color:rgb(31, 31, 176);
+    margin: 0;
+    padding: 0;
+}
+
+.top-header{
+    box-sizing:border-box;
+    /* margin-left: 0px;
+    margin-right: 0px; */
+    padding: 0;
+    color:rgb(206, 207, 207);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color:rgb(31, 31, 176);
+}
+
+.balance h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.balance h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: rgb(224, 223, 223);
+}
+.bell-user .fa-solid{
+    width: 30px;
+    font-size: 23px;
+    position: relative;
+    bottom: 19px;
+
+}
+.bell-user .fa-solid:hover{
+    color: tomato;
+    width: 30px;
+    font-size: 28px;
+    position: relative;
+    bottom: 19px;
+    right: 10px;
+
+}
+.bell-user img{
+    border-radius: 800px;
+    width: 50px;
+    height:50px ;
+    border: 2px solid whitesmoke;
+    margin-top: 20px;
+    /* i just added the below property  */
+    margin-left: 10px; 
+ } 
+
+.bell-user img:hover{
+    border-radius: 800px;
+    width: 60px;
+    height:60px ;
+    border: 2px solid tomato;
+    margin-top: 20px;
+} 
+.second-header{
+    background-color:rgb(31, 31, 176);
+    height: 120px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.second-header img{
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0;
+   height: 30px;
+   width: 30px;
+}
+.second-header h3{
+    font-size: 15px;
+    text-align: center; 
+    font-weight: 200;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    margin-top: 10px;  
+
+}
+/* dashboard Header Ended Here */
+
+ /*  Main section started here */
+ section{
+    background-color: rgb(234, 234, 234);
+ }
+.main{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(234, 234, 234);
+    bottom: 15px;
+}
+.main h1{
+    font-size: 20px;
+    color: rgb(1, 1, 52);
+    margin-top: 20px;
+    margin-left: -10px;
+}
+.main h3{
+    font-size: 18px;
+    color: rgb(83, 83, 232);
+    margin-top: 20px;
+    margin-left: 20px;
+} 
+
+ /*  Main section End here */
+
+
+  /* main2 section started here */
+
+.main2{
+    background-color: rgb(234, 234, 234);
+    height: auto;
+    margin-top: -15px;
+    margin-bottom: 0;
+}
+button{
+    font-size: 14px;
+    color: rgb(127, 124, 124);
+    background: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 20px;
+    margin-left: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.main2 h1{
+    font-size: 15px;
+    margin-top: 20px;
+    color: rgba(12, 12, 46, 0.454);
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-weight: 600px;
+    font-family: Holvetica, sans-serif;
+}
+
+ /*  main2 section End here */
+
+  /*  history section started here */
+.bb{
+    margin-top: -5px;
+    background-color: rgb(234, 234, 234);
+    height: 200px;
+}
+.bnn{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 0px rgb(187, 186, 186);
+}
+.bnn img{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px  -20px 10px;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+}
+.bnn h1{
+    margin-top: 20px;
+    margin-left: -20px;
+    color: rgb(26, 26, 148);
+    font-size: 18px;
+}
+
+.bnn p{
+    font-size: 13px;
+    color: rgb(84, 82, 82);
+    margin-top: 5px;
+    margin-left: -20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+p span{
+    font-size: 13px;
+    margin-left: 10px;
+}
+h1 span{
+    color: green;
+}
+ /*  history section End here */
+   
+
+ /*  footer section started here */
+
+.footer{
+        height: auto; 
+        background-color: rgb(234, 234, 234);
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 20px; 
+    
+    }
+   
+    .footer img{
+        padding: 10px;
+        border-radius: 20px;
+        margin: 0;
+       height: 30px;
+       width: 30px;
+    }
+
+    .footer h3{
+        font-size: 15px;
+        color: rgb(31, 31, 176);
+        text-align: center;
+        font-weight: 500;
+        font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        margin-top: 0; 
+        margin-bottom: 15px;
+     
+}
+.footer .plus-box img{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.footer .plus-box img:hover{
+    width: 80px;
+    height: 80px;
+    margin-top: -30px;
+}
+
+.item-box a{
+    text-decoration: none;
+}
+
+.item-box img:hover{
+
+background-color: tomato;
+height: 50px;
+width: 50px;
+
+}
+
+ /*  footer section End here */
+
+ /* Landing page started here */
+ .lan-header{
+    text-align: center;
+    background-color:rgb(31, 31, 176);
+    padding-bottom: 130px;
+ }
+
+ .lan-header h1{
+     text-align: left;
+     color: white;
+     margin: 20px;
+     font-size: 38px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .lan-header p{
+     text-align: left;
+    color: rgb(236, 233, 233);
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .lan-header button {
+     font-size: 18px;
+     color: white;
+     display: block; 
+     text-align: center;
+    height: 70px;
+    width: 90%;
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 0px;
+ }
+
+ .lan-header button a{
+    color: white;
+    text-decoration: none;
+}
+
+.lan-header .button-login a{
+    color: navy;
+    text-decoration: none;
+
+}  
+
+ .lan-header .button-login{
+    border: 2px solid white;
+    background-color: rgb(234, 234, 234);
+    color: navy;
+    margin-bottom: 0;
+}
+ /* landing page End here */
+
+ /* login page started here */
+ .login-header{
+     margin-top: -40px;
+     color: white;
+    text-align: center;
+    background-color:rgb(31, 31, 176);
+    padding-bottom: 40px;
+ }
+ .login-header h1{
+    text-align: center;
+     color: white;
+     margin: 20px;
+     font-size: 38px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .login-header p{
+    text-align: center;
+    color: rgb(236, 233, 233);
+    margin: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ form {
+     padding-left: 10px;
+     padding-right: 10px;
+     text-align: left;
+     font-weight: 400;
+ }
+
+ .login-header Input{
+     background-color: rgb(31, 31, 176);
+     padding: 15px;
+     width: 90%;
+     border: 2px solid rgb(255, 255, 255);
+     border-top: 0;
+     border-left: 0;
+     border-right: 0;   
+ }
+
+label{
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+    font-size: 25px;
+ }
+
+ .login-header img{
+     margin-top: 50px;
+ }
+ 
+ .login-header a{
+     display: inline-block;
+     padding-left:200px;
+     font-size: 18px;
+     padding-top: 10px;
+     color: rgb(204, 201, 201);
+    
+ }
+ .login-header button{
+    /* border: 2px solid white; */
+    background-color: rgb(234, 234, 234);
+    color: navy;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    height: 70px;
+    width: 90%;
+    /* border: 0; */
+    border-radius: 5px;
+    margin-top: 25px;
+ }
+
+ .login-header button a{
+    font-size: 18px;
+    color: navy; 
+    text-decoration: none;
+    position: relative;
+    right: 35%;
+ }
+  /* login page ENDED here */
+
+  /* // coming soon //back to home // log out started here */
+  .back-home a{
+      color: white;
+      text-decoration: none;
+  }
+  .back-home a:hover{
+     font-size: 20px;
+    color: rgb(229, 11, 116); 
+  }
+
+/* back to home ended here */
+
+
+/* MODAL POPUP CSS CODE STARTED HERE*/
+
+.modal-container{
+    position: fixed;
+    top:0;
+    left: 12px;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    /* opacity: 0; */
+    transition: right .10s ease-in-out;
+    pointer-events: auto;
+  
+}
+
+        .modal nav{
+            border: 3px solid rgb(131, 127, 127);
+            box-shadow: 0px 0 50px 20px ;
+            border-top: 0px;
+            padding-top: 5px;
+            margin-top: 0;
+            border-radius: 0 0px 30px 30px;
+            background-color: rgb(31, 31, 176);
+        }
+      .modal ul li {
+    
+           font-size: 28px;
+           color: white;
+            text-decoration: none;
+        }
+
+       .modal ul{
+
+            list-style: none;
+        }
+       .modal ul li i{
+            font-size: 35px;
+            color: white;
+            margin-bottom: 20px;
+            margin-right: 0px;
+            margin-left: -20px;
+            padding: 20px 20px 15px 0;
+        }
+
+       .modal ul li a{
+             text-decoration: none; 
+            color: white;
+    
+        }
+
+       .modal .close{
+            right: 50px;
+            top: 0px;
+            margin-bottom: 5px;
+            position: absolute;
+            cursor: pointer;
+        }
+
+      .modal .close i:hover{
+            color: tomato;
+            font-size: 30px;
+
+         }
+
+        .modal  ul li a:hover{
+            text-decoration: none; 
+         } 
+        .modal  ul li i:hover{
+            text-decoration: none; 
+           color:tomato;
+            font-size: 60px;
+         }
+
+/* MODAL POPUP CSS CODE ENDED HERE*/
+
+
+/* /* DESKTOP DESIGN STARTED HERE */ */
+
+.desktop-container{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: rgb(213, 213, 213);
+    width: 100%;
+    height: 100%;
+
+}
+.side-menu{
+    position: fixed;
+    left: 0;
+    text-align: left;
+    box-sizing: border-box;
+    background-color: navy ;
+    border-radius: 0 15px 15px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 200px;
+    height: 100%;
+}
+.side-menu a{
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    line-height: 70px;
+    text-decoration: none;
+    margin-right: 35px;
+}
+.side-menu ul{
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+}
+.side-menu ul li{
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(182, 182, 182);
+    list-style: none;
+}
+.side-menu ul li:hover{
+    border-top-right-radius:  10px;
+    background-color: tomato;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(182, 182, 182);
+    list-style: none;
+}
+
+.side-menu i{
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+
+}
+
+.profile-image{
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+}
+.profile-image h1{
+    font-weight: 500;
+    font-size: 22px;
+    font-family:roboto sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+.profile-image img{
+    border: 2px solid tomato;
+    margin-top: 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.profile-image button{
+    background-color: white;
+    color: tomato;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.section1{
+    background-color: rgb(213, 213, 213);
+    left: 200px;
+    position: fixed;
+    box-sizing: border-box;
+    margin-left:px;
+    width: 794px;
+    height: 100%;
+    overflow: auto;
+}
+.section1 h2{
+    margin-top: 20px;
+   font-size: 20px;
+   margin-left: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section1 span{
+   font-size: 20px;
+   font-weight: 400;
+   color: tomato;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 5px;
+  margin-top: 10px;
+}
+
+.section1-content{
+display: flex;
+justify-content: space-around;
+}
+
+
+.clo{
+    margin-top: 20px;
+    height: 250px;
+    width: 300px;
+    margin-right: 5px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: rgb(31, 31, 176);
+
+}
+
+.clo h2{
+ font-size: 17px;
+ color: rgb(241, 241, 241);
+}
+
+.clo h1{
+    margin-top: 0;
+    font-size: 35px;
+    color: rgb(241, 241, 241);
+    margin-left: 25px;
+}
+
+.clo button{
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    height: 35px;
+    width: 60%;
+    margin-top: 0;
+    margin-left: 30px;
+
+}
+.clo img{
+    margin-top: 25px;
+    margin-bottom: 0;
+    margin-left: 60px;
+    /* position: relative;
+    left: 40px; */
+
+}
+.plo{
+    margin-right: 50px;
+    margin-top: 20px;
+    height: 250px;
+    width: 300px;
+    margin-left: 40px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+
+.plo-items1{
+    background-color: rgb(197, 206, 245);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.plo-content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plo-content img{
+    background-color: tomato;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.plo-text h2{
+    position: absolute;
+    left: 60px;
+    font-size: 18px;
+    color: rgb(32, 32, 32);
+
+}
+.plo-text h3{
+    position: absolute;
+    top: 30px;
+    left: 85px;
+    font-size: 13px;
+    color: rgb(32, 32, 32);
+}
+
+.plo-items1 button{
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(4, 41, 83);
+    color: white;
+     
+}
+
+
+.section2{
+    background-color: rgb(213, 213, 213);
+    right: 0;
+    position: fixed;
+    box-sizing: border-box;
+    width: 375px;
+    height: 100%;
+    overflow: auto;
+}
+
+.section2-content h2{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+.cla{
+    box-sizing: border-box;
+    margin-top: 20px;
+    height: 190px;
+    width: 300px;
+    margin-right: 40px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: white;
+
+}
+
+.search-box input{
+    outline: none;
+    border: none;
+    margin-top: 8px;
+     padding: 10px;
+     margin-left: 25px;
+     width: 190px;
+     background-color: rgb(244, 244, 244);
+     border-radius: 10px;
+}
+
+.search-box i{
+    color: rgb(8, 8, 8);
+    top: 32px;
+    left: 119px;
+    position: absolute;
+
+}
+
+/* .search-box ::placeholder{
+    color: red;
+} */
+
+.search-box{
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 220px;
+    background-color: rgb(244, 244, 244);
+    margin-left: 110px;
+
+}
+
+.claitem{
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.claitem img{
+    background-color: rgb(31, 31, 176);
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.claitem h1{
+    font-size: 15px;
+    margin-top: 27px;
+    line-height: 5px;
+}
+
+.claitem h3{
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.claitem h3{
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+     margin-right: 20px;
+}
+.claitem h4{
+    text-align: right;
+    font-size: 15px;
+     margin-right: 20px;
+     color: rgb(15, 15, 169);
+}
+.transh1{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+
+.trans-container{
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    width: 85%;
+    height: 190px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.trans{
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: -20px; 
+    
+}
+
+.trans img{
+    background-color: rgb(174, 174, 176);
+    margin: 20px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+
+}
+.trans h1{
+    margin-top: 30px;
+    margin-left: -130px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.trans h2{
+    position: absolute;
+    left: 85px;
+    top: 34px;
+    color: rgb(61, 60, 60);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.trans .pmred{
+    position: absolute;
+    left: 75px;
+    top: 34px;
+    color: rgb(61, 60, 60);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.trans button{
+    background-color: rgb(221, 243, 221);
+    line-height: 20px;
+    color: green;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+.trans-button button{
+    background-color: rgb(255, 200, 200);
+    color: red;
+    
+}
+.trans h3{
+    margin-top: 30px;
+    margin-left: -130px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* hdhdhd */
+
+.ground-info{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: rgb(10, 10, 192);
+    margin-top: 30px;
+    width: 85%;
+    height: 80px;
+    margin-left: 60px;
+    
+    border-radius: 10px;
+}
+
+.ground-info img{
+    background-color: rgb(10, 10, 192);
+    margin: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+.ground-info h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: -183px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.ground-info h2{
+    position: absolute;
+    left: 75px;
+    top: 31px;
+    color: rgb(240, 237, 237);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.ground-info button{
+    font-size: 18px;
+    background-color: tomato;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-right: 70px;
+    border-radius: 5px;
+}
+.ground-info h3{
+    margin-top: 30px;
+    margin-left: -120px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.cla2{
+    box-sizing: border-box;
+    margin-top: 20px;
+    height: 250px;
+    width: 300px;
+    margin-right: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.cla-proj{
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cla-proj h1{
+    margin-right: 2px;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 5px;
+}
+
+.cla-proj img {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.cla-proj h3{
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+     margin-right: 20px;
+}
+
+.cla-proj button{
+    background-color: blue;
+    padding: 8px;
+    color: white;
+    line-height: 5px;
+    margin-right: 7px;
+}
+
+.cla-projcontect h1{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+
+.cla-projcontect h3{
+    font-size: 11px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.cla-proj-offer{
+    background-color: rgb(218, 218, 249);
+    margin-bottom: -20px;
+    display: flex;
+    line-height: 8px;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 5px 8px 8px 5px;
+    border-radius: 10px;
+}
+
+.cla-proj-offer h1{
+    font-size: 16px;
+}
+
+.cla-proj-offer button{
+    line-height: 1px;
+    padding: 10px;
+    font-size: 10px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.cla-proj-offer span{
+    font-size: 10px;
+    color: rgb(61, 60, 60);
+
+}
+
+/* DESKTOP DESIGN ENDED HERE */
+
+/* DESKTOP HOME PAGE */
+
+.nav-header{
+    background-color: rgb(31, 31, 176);
+}
+
+.nav-container{
+    background-color: rgb(31, 31, 176);
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    border-bottom: 1px solid wheat;
+}
+
+.nav-container nav{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.nav-container a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px; 
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+.nav-container a:hover {
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.nav-container .nav-button a:hover {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.nav-container .nav-button {
+    font-size: 20px;
+    background-color: tomato;
+    border-radius: 5px;
+}
+.nav-container .nav-button a {
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.nav-container .swiftlogo{
+    margin-top: 0px;
+    margin-bottom: -15px;
+}
+
+.nav-container .swiftlogo img{
+    background-color: tomato;
+    padding: 8px;
+    border-radius: 7px;
+    margin-left: 40px;
+    height: 40px;
+    width: 40px;
+}
+.nav-container .swiftlogo h1{
+    font-size: 25px;
+    color: white;
+    padding: 8px;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+
+.body-header{
+    background-color:rgb(31, 31, 176);
+    padding-top: 50px;
+  
+}
+.second-header-container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.second-header-container h1{
+    color: white;
+    font-size: 35px;
+}
+
+.second-header-container p{
+    color: white;
+    font-size: 20px;
+}
+.second-header-container button{
+      color: white;
+    background-color: tomato;
+}
+.second-header-container .sansung1 {
+     position: absolute;
+     right: 5px;
+    width: 700px;
+    height: 500px;
+    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  
+}
+
+.dexhomsec1{
+    background-color: rgb(247, 241, 241);
+    margin-top: -20px;
+    
+}
+.dexhomsec1 .dexheading h1{
+    color: rgb(28, 27, 27);
+    font-size: 35px;
+
+}
+.dexhomsec1 .dexheading h3{
+    color: rgb(28, 27, 27);
+    font-size: 14px;
+}
+
+.dexhomsec1 .dexheading p{
+    color: rgb(28, 27, 27);
+    font-size: 16px;
+   
+}
+.dexhomsec1 .dexheading{
+    text-align: center;
+    color: rgb(28, 27, 27);
+    font-size: 15px;
+    padding-top: 10px;
+   
+}
+.dexservice{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.dexservice .box{
+    box-shadow:  2px 12px 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+.dexservice .box h1{
+    font-size: 15px;
+}
+.dexservice .box p{
+    font-size: 13px;
+}
+
+
+.delhomfooter{
+    border-top: 1px solid rgb(219, 219, 219);
+    text-align: right;
+    background-color: rgb(247, 241, 241);
+    Padding-right: 20px;
+}
+.delhomfooter i{
+    border-radius: 5px;
+    color: tomato;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 3px;
+    border: 1px solid tomato;
+    margin: 3px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+@media screen  and (max-width: 768px){
+    #mobile-version{
+        display: block ;
+    }
+    #desktop-version{
+        display: none;
+    }
+}
+@media screen  and (min-width: 769px){
+  #mobile-version{
+        display: none;
+        
+    }
+     #desktop-version{
+        display: block;
+
+     }
+     .login-header{
+     text-align: center;
+     }
+     .login-header button{
+         text-align: center;
+         width: 350px;
+
+    
+        
+    }
+}
